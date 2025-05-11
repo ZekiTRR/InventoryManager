@@ -77,6 +77,7 @@ void viewAllProducts()
     string name;
     int price;
 
+    system("cls || clear");
     // Display header
     cout << "\nInventory List:" << endl;
     cout << "Name:" << "   " << "Price:" << endl;
@@ -132,5 +133,3 @@ void deleteProduct() {
     }
     cout << "Product deleted successfully!\n";
 }
-
-// Test for git
